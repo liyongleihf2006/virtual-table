@@ -60,7 +60,7 @@
         >
           <template v-slot="scope">
             <div class="el-input__inner el-input-text">
-              {{scope.row.nation}}
+              {{scope.row.nation | nationFilter}}
             </div>
           </template>
           <template v-slot:edit="scope">

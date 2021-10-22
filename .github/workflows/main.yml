@@ -20,16 +20,3 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: dist # The folder the action should deploy.
-  cloudbase:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Tencent CloudBase Github Action
-      # You may pin to the exact commit or the version.
-        uses: TencentCloudBase/cloudbase-action@v2
-        with:
-          # 云开发 secretId
-          secretId: AKIDUu8C7pMhoiPsAKVakpkU1LRJxRlvteCX
-          # 云开发 secretKey
-          secretKey: A7qMfkcGk3B6mESRCj160jFahaLtFOL6
-          # 云开发环境 Id
-          envId: env1-3gv9y1w272e16feb

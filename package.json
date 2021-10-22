@@ -1,4 +1,5 @@
 {
+  "homepage": "https://liyongleihf2006.github.io/virtual-table",
   "name": "virtual-table",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.6",
+    "mockjs": "^1.1.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {

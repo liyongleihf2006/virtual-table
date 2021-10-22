@@ -1,0 +1,4 @@
+- name: vue cli plugin s3 deploy action
+  # You may pin to the exact commit or the version.
+  # uses: jackdcasey/vue-cli-plugin-s3-deploy-action@f9697604b33e5ed7564ce511f30d0af81a2839a4
+  uses: jackdcasey/vue-cli-plugin-s3-deploy-action@v0.1
